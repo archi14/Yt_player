@@ -1,6 +1,4 @@
 import React from 'react'
-import ReactPlayer from 'react-player'
-import youtube from '../apis/youtube'
 
 class VideoDetail extends React.Component{
 
