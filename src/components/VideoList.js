@@ -12,7 +12,7 @@ class VideoList extends React.Component{
         return this.props.videoList.map(item=>{
             return (      
             <div onClick={()=>this.handleClick(item)} className="video-item item" key={item.id.videoId}>
-                <img className="ui class" src={item.snippet.thumbnails.medium.url}/>
+                <img alt="Loading" className="ui class" src={item.snippet.thumbnails.medium.url}/>
                 <div className="content">
                     <div className="header">{item.snippet.title}</div>
                 </div>
