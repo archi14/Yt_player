@@ -1,0 +1,1 @@
+export const KEY="AIzaSyCC6o0szxsEtO4iH4Dgvf-ny7VTPn3TVi0";
